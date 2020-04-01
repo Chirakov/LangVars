@@ -30,7 +30,8 @@ namespace MyProgram
             EngWords.Add("Новичок", "Newbie");
             EngWords.Add("Любитель", "Amateur");
             EngWords.Add("Профи", "professional");
-            EngWords.Add("Выберите язык", "Choose language");
+            EngWords.Add("Выберите язык", "Choose language" );
+            EngWords.Add("Choose tongue", "Choose tongue");
             EngWords.Add("выберите сложность", "choose difficulty");
             UcrWords.Add("выберите сложность", "виберіть складність");
             UcrWords.Add("Выберите язык", "Виберіть мову");
@@ -45,7 +46,7 @@ namespace MyProgram
             button2.Text = EngWords["Любитель"];
             button3.Text = EngWords["Профи"];
             label1.Text = EngWords["Выберите язык"];
-            label2.Text = EngWords["Выберите язык"];
+            label2.Text = EngWords["Choose tongue"];
             label3.Text = EngWords["выберите сложность"];
 
         }   
